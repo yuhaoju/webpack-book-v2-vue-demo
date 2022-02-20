@@ -1,24 +1,14 @@
-# vue-webpack-project
+# webpack-book-v2-vue-demo
 
-## Project setup
-```
-yarn install
-```
+《Webpack 实战》第二版 vue 项目示例，手动搭建的示例请使用 `manual-config-demo` 分支。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## How to run the demo
 
-### Compiles and minifies for production
+```shell
+$ clone git@github.com:yuhaoju/webpack-book-v2-vue-demo.git
+$ yarn # or npm install
+$ yarn dev # or npm run dev
 ```
-yarn build
-```
+## Report and issue
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This repo is still updating, any issue & contribution is welcome💡
