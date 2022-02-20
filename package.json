@@ -1,42 +1,29 @@
 {
-  "name": "vue-webpack-project",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
+  "name": "webpack-book-v2-vue-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yuhaoju/webpack-book-v2-vue-demo.git",
+  "author": "Yuhao Ju <yuhaoju0623@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^3.2.31",
+    "vue-style-loader": "^4.1.3"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack serve",
+    "build": "NODE_ENV=production webpack build"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
 }
